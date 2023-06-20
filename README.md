@@ -1,3 +1,31 @@
+# Programa Desenvolve 2023 - React: conhecendo a biblioteca React Router
+
+Repositório criado com o objetivo de registrar meu progresso no Programa Desenvolve 2023 do Grupo Boticário em parceria com a Alura praticando o que foi abordado nas aulas do curso: <br> 
+React: conhecendo a biblioteca React Router, avançando no projeto do restaurante [Aluroni](https://github.com/whoisbrizza/aluroni-react-com-typescript), aprendemos a usar a nova versão do react-router-dom para criarmos rotas na aplicação. <br><br>
+Iniciamos apenas com a rota de cardápio, então, criamos a página inicial, no início colocamos o "menu" para funcionar, criamos a página de início e o arquivo routes.tsx para ter a transição de rotas e saber quais as rotas que existem na aplicação. <br>
+Criamos um link para conseguir navegar para detalhes do prato, sobre, entre outras páginas, no menu utilizamos o link e no botão "Ver mais" usamos o useNavigate do react-router-dom. <br><br>
+Selecionando "ver mais" na página criamos os detalhes do prato e esse detalhes do prato também possui uma página que não existe (not found), então, criamos essa página "not found" e outro ponto é que se digitarmos na URL /banana, por exemplo, que não existe, também vai para a tela de "not found". <br><br>
+Também usamos o ESLint, para termos um código mais conciso e algumas refatorações, de modo que criamos uma pasta para "components" com componentes usados entre páginas, geramos a pasta de dados, "data", para colocar o cardápio que usamos entre as páginas também, outra de "types" para inserirmos os tipos que reutilizamos entre as páginas.
+
+## Demonstração:
+<img src='Aluroni-react-router.gif'>
+
+## Tecnologias utilizadas durante o curso
+
+* React
+* Router
+* TypeScript
+* SCSS
+
+## Tópicos abordados no curso:
+
+* O que é SPA? <br>
+* Estrutura básica do Router DOM <br>
+* Criando as rotas <br>
+* Router DOM Hooks <br>
+* Finalizando o projeto <br>
+* Ajustes NotFound e Header <br><br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
